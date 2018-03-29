@@ -2,14 +2,19 @@
 body 
 	{
 	
-		background: url("../picture/BG.jpg") no-repeat;
+		background: url("../picture/BG.jpg") no-repeat; 
 	 
-	   	background-size: cover;
+	   	background-size: auto;
 		font-family: Arial;
 
 	}
 
 
+
+
+#navBar{
+	width: 5000px;
+}
 
 #navBar ul {
 
@@ -23,7 +28,7 @@ body
 
 #navBar ul li{
 
-	
+
 	float: left;
 	width: 200px;
 	height: 45px;
@@ -44,7 +49,7 @@ body
 
 }
 #navBar ul : after{
-
+	
 	content: "";
 	clear: both;
 	display: block;
