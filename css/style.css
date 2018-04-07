@@ -12,7 +12,7 @@ body
 
 
 
-#navBar{
+#navBar{                       /*id = # and class = .class*/
 	width: 5000px;
 }
 
@@ -61,6 +61,7 @@ body
 .paragraph {
 	padding:50px;
 	margin-top:20px;
+
 }
 
 #iFrame {
@@ -71,3 +72,10 @@ body
  	height:700px;
 
 }
+ /*id = # and class = .class*/
+
+
+.paragraph ul li h3{    /*Education tab*/
+  color:blue;
+}
+
